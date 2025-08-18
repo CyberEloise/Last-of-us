@@ -1,0 +1,30 @@
+/* Asterisk Wildcard selector to override my default syles added by browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Style */
+body {
+    background-color: aqua;
+
+}
+
+/* Header */
+
+header { 
+    background-color: grey;
+}
+
+/* Main content */ 
+
+main { 
+     background-color: grey;
+}
+
+/* Footer */
+
+footer {
+    background-color: grey;
+}
