@@ -1,3 +1,6 @@
+/* Google Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 /* Asterisk Wildcard selector to override my default syles added by browser */
 * {
     padding: 0;
@@ -9,6 +12,18 @@
 body {
     background-color: aqua;
 
+}
+
+/* navigation system */
+
+nav ul {  
+    display: flex;
+
+}
+
+/*The Last of us title home page */
+.tlou { 
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 /* Header */
