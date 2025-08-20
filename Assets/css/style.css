@@ -21,13 +21,16 @@ body {
 
 nav ul {  
     display: flex;
+    color: white;
+    padding-left: 0 1rem;
 
 }
 
 /*The Last of us title home page */
-.tlou { 
+#tlou { 
     font-family: 'Bebas Neue', sans-serif;
     color: white;
+    
 }
 
 /* Header */
@@ -39,11 +42,11 @@ header {
 /* Main content */ 
 
 main { 
-     background-color: grey;
+     background-color: #0f0f0f;
 }
 
 /* Footer */
 
 footer {
-    background-color: grey;
+    background-color: #0f0f0f;
 }
