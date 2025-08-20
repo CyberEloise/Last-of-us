@@ -10,7 +10,10 @@
 
 /* General Style */
 body {
-    background-color: aqua;
+    background-color: #0f0f0f;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -29,7 +32,7 @@ nav ul {
 /* Header */
 
 header { 
-    background-color: grey;
+    background-color: #0f0f0f;
 }
 
 /* Main content */ 
