@@ -24,12 +24,16 @@ nav ul {
     color: white;
     padding: right;
     margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 /* Navigation text for home etc etc */
 
 nav ul li a {
     font-family: 'Bebas Neue', sans-serif ;
     color: white;
+    position: absolute;
 }
 
 /*The Last of us title home page */
