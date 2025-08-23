@@ -27,29 +27,30 @@ nav ul {
     position: absolute;
     top: 20px;
     right: 20px;
+    gap: 35px;
 }
 /* Navigation text for home etc etc */
 
 nav ul li a {
     font-family: 'Bebas Neue', sans-serif ;
     color: white;
-    position: absolute;
+    font-size: 30px;
 }
 
 /*The Last of us title home page */
 #tlou { 
     font-family: 'Bebas Neue', sans-serif;
     color: white;
-    font-size: 80px;
-    position: fixed;
+    font-size: 140px;
+    position: absolute;
     }
 
     /* Intro Hero image */
 
     .hero {
-        height: 100vh;
-        display: flex;
-        
+        width: 100%;
+        display: block;
+       
 
     }
 
