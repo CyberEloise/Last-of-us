@@ -10,7 +10,6 @@
      <link rel="stylesheet" href="Assets/css/style.css">
      <!-- Title -->
      <title> The last of us </title>
-     <!-- Favicon -->
  </head>
 <body>
     <!-- Header -->
@@ -40,11 +39,25 @@
         <!--PLAY THE LAST OF US-->
       <a href="//store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/" class="play-here"> Play The Last of Us </a>
       <!--Gallery-->
-      <section></section>
+      <section class="gallery" id="gallery"></section>
       <!-- TV SHOW-->
-      <section></section>
+      <section class="tvshow" id="tvshow"></section>
+
       <!--Feedback-->
-      <section></section>
+      <section class="feedback" id="feedback">
+      <h2> How can we improve! </h2>
+      <p> Tell us about any bugs, thoughts or just how your day was! </p>
+      <!--Form-->
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <label for="email"> Email:</label>
+        <input for="email" id="email" name="email" placeholder="Your email" required>
+         <label for="message"> Feedback </label>    
+        <input for="message" id="message" name="message" rows="3" placeholder="Your feedback" required></label>
+         <button type="submit"> Submit </button>
+      </form>
+      </section>
     </main>
       <!-- Footer -->
        <footer>   
