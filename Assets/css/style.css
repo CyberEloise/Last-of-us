@@ -77,10 +77,11 @@ main {
 
 .info {
 
-    background-color: #
+    background-color: white;
     padding: 60px; 
-    
-
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
 }
 
 /* Footer */
