@@ -76,12 +76,14 @@ header {
     gap: 20px;
     max-width: 900px;
     width: 100%;
+    grid-template-columns: (3,1fr);
     padding: 10px;
 }
 
 .gallery img { 
     width: 100%;
     aspect-ratio: 1/1 ;
+    object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
