@@ -46,9 +46,11 @@ nav ul li a:hover{
 #tlou { 
     font-family: 'Bebas Neue', sans-serif;
     color: white;
-    font-size: 140px;
+    font-size: 170px;
     position: absolute;
     line-height: 0.8;
+    left: 40px;
+    top: 35px;
     }
 
     /* Intro Hero image */
