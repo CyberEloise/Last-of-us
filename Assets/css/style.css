@@ -86,8 +86,8 @@ header {
 
 img {
     object-fit: cover;
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
 }
 
 
@@ -101,10 +101,7 @@ main {
 .info {
 
     background-color: white;
-    padding: 60px; 
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
+    padding: 60px;
 }
 
 /* Footer */
