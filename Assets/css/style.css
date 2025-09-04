@@ -134,6 +134,7 @@ main {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-top: 30px ;
 }
 
 .button-55:hover {
