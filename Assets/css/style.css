@@ -165,7 +165,12 @@ main {
 }
 
 
+/* Feedback*/
 
+.feedback { 
+ background-color: #43653E;
+ padding: 60px;
+}
 
 
 /* Footer */
