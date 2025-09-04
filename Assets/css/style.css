@@ -62,7 +62,14 @@ nav ul li a:hover{
     }
 
 
+/* Text heading for h1 */
 
+h1 {
+    font-family:'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 130px;
+
+}
 
 /* Header */
 
