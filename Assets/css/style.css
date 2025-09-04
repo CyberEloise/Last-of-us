@@ -72,9 +72,11 @@ h1 {
 
 }
 
-p { font-size: 30px; }
+p { font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif; }
 
-h2 { font-size:55px; }
+h2 { font-size:55px;
+      font-family: 'Bebas Neue', sans-serif; }
 
 /* Header */
 
