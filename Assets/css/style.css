@@ -112,6 +112,12 @@ main {
     padding: 60px;
 }
 
+/* Tv show */
+ .tvshow {
+    background: #43653E;
+    padding:60px;
+ }
+
 /* Button css from  getcssscan.com */
 .button-55 {
   align-self: center;
