@@ -1,5 +1,6 @@
 /* Google Fonts Import */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* Asterisk Wildcard selector to override my default syles added by browser */
 * {
@@ -76,7 +77,9 @@ p { font-size: 30px;
     font-family: 'Bebas Neue', sans-serif; }
 
 h2 { font-size:55px;
-      font-family: 'Bebas Neue', sans-serif; }
+      font-family: 'Bebas Neue', sans-serif; 
+      color: white;
+    }
 
 /* Header */
 
@@ -103,6 +106,20 @@ img {
     width: 700px;
     height: 700px;
 }
+
+.imgtvshow {
+    background-color: #111910;
+    display: flex ;
+    justify-content: flex-end;
+    gap: 95px;
+   
+}
+
+.elliepedro {
+   display: flex;
+   justify-content: space-between;
+}
+
 
 
 /* Main content */ 
