@@ -210,10 +210,12 @@ footer {
  }
 
  /* 404 page */
- .error { font-family:'Bebas Neue', sans-serif;
+ .error { 
+    font-family:'Bebas Neue', sans-serif;
     color: white;
     font-size: 130px;
     text-align: center;
     margin-top: 240px;
+    background-color: #41403e;
 
  }
