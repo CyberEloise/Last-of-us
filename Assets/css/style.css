@@ -198,3 +198,13 @@ footer {
     background-color: #0f0f0f;
     color:white;
 }
+
+/* Success Page */
+
+ .success-text {
+    font-family:'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 130px;
+    text-align: center;
+    margin-top: 240px;
+ }
