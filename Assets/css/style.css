@@ -189,8 +189,18 @@ main {
  background-color: #43653E;
  padding: 60px;
  text-align: center;
+ margin-top: 50px;
+ margin-bottom: 50px;
 }
 
+.formg {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.fbtext {
+    margin-bottom: 50px;
+ }
 
 /* Footer */
 
@@ -219,3 +229,4 @@ footer {
     background-color: #41403e;
 
  }
+
