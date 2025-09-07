@@ -16,7 +16,9 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-
+    margin: 0;
+    padding: 0;
+    gap: 0;
 }
 
 /* navigation system */
@@ -58,9 +60,13 @@ nav ul li a:hover{
     /* Intro Hero image */
 
     .hero {
-        width: 100%;
-        height: auto;
+        
+        width :100%;
+        height: 100vh;
+        object-fit: cover;
         display: block;
+      
+        
     }
 
 
@@ -112,9 +118,11 @@ img {
     background-color: #111910;
     display: flex ;
     justify-content: flex-end;
-    gap: 95px;
+    gap: 30px;
+    
    
 }
+
 
 .elliepedro {
    display: flex;
@@ -127,6 +135,8 @@ img {
 
 main { 
      background-color: #0f0f0f;
+     margin: 0;
+     padding: 0;
 }
 
 .info {
@@ -232,7 +242,7 @@ footer {
 
  /* Media Querys : Mobile 375px */
  @media screen and (max-width: 375px) { 
-    nav ul li a { font-size: 14px}
+    nav ul li a { font-size: 10px}
 
     #tlou { font-size: 45px;
     padding-right: 40%;}
@@ -253,7 +263,6 @@ footer {
       padding: 0 10px;}
 
  .info { 
-    max-width: ;
     background-color: #43653E;
     padding: 60px;
     }
@@ -270,15 +279,60 @@ footer {
 
  }
 
-
-
  /* Media Query : tablets */
 
  @media screen and (max-width:768px){
 
-    .hero { 
+    nav ul li a { font-size: 17px;}
+
+    nav ul { 
+        position: static;
+        justify-content: center;
+    }
+
+    #tlou {
+        font-size: 55px;
+        
+    }
+      header{
+    position: relative;
+    width: 100vw;          /* span full viewport width */
+    min-height: 100vh;     /* at least full viewport height */
+    overflow: hidden;      /* hide any crop */
+    margin: 0; padding: 0;
+  }
+ .hero{
+    position: absolute;    /* stretch to all edges of header */
+    inset: 0;              /* top:0 right:0 bottom:0 left:0 */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     /* behave like background-size: cover */
+    display: block;
+  }
+    .tlou, .navbar{ position: relative; z-index: 1; }
+
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .imgtvshow {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    img { 
+        width: 100%;
         height: auto;
     }
-    
  }
 
