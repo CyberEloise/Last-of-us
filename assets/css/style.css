@@ -335,6 +335,7 @@ footer {
     img { 
         width: 100%;
         height: auto;
+        object-fit: cover;
     }
  }
 
@@ -348,12 +349,23 @@ footer {
   .imgtvshow img { width: 100%; height: auto; object-fit: cover; }
   }
 
+  img { 
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
   @media screen and (max-width: 1200px) {
     
     .imgtvshow {
     flex-direction: column;
-    text-align: center;
+    align-items: center;
 }  
+img { 
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
 }
 
 
