@@ -26,7 +26,6 @@ body {
 nav ul {
     display: flex;
     color: white;
-    padding: right;
     margin: 0;
     position: absolute;
     top: 20px;
