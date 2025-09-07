@@ -123,8 +123,6 @@ img {
     display: flex;
     justify-content: flex-end;
     gap: 30px;
-
-
 }
 
 
@@ -369,17 +367,14 @@ footer {
         flex-direction: column;
     }
 
-    .imgtvshow img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
-}
-
+   
 img {
-    width: 100%;
+
+    width: 600px;
+    max-width: 100%;
     height: auto;
     object-fit: cover;
+}
 }
 
 @media screen and (max-width: 1200px) {
@@ -397,12 +392,22 @@ img {
 
 }
 
-@media screen and (max-width:1440px) { 
 
-    .img { 
-        width: 600px;
-    }
+@media screen and (max-width:1440px) {
+
+
     .imgtvshow {
         flex-direction: column;
-        align-items: center;   }
+        align-items: center;
+    }
 }
+
+@media screen and (max-width:2660px) {
+
+    .imgtvshow {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+}
+
