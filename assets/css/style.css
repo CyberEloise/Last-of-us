@@ -23,7 +23,7 @@ body {
 
 /* navigation system */
 
-nav ul {  
+nav ul {
     display: flex;
     color: white;
     padding: right;
@@ -33,21 +33,22 @@ nav ul {
     right: 20px;
     gap: 35px;
 }
+
 /* Navigation text for home etc etc */
 
 nav ul li a {
-    font-family: 'Bebas Neue', sans-serif ;
+    font-family: 'Bebas Neue', sans-serif;
     color: white;
     font-size: 30px;
-    
+
 }
 
-nav ul li a:hover{ 
- color: #43653e;
+nav ul li a:hover {
+    color: #43653e;
 }
 
 /*The Last of us title home page */
-#tlou { 
+#tlou {
     font-family: 'Bebas Neue', sans-serif;
     color: white;
     font-size: 170px;
@@ -55,42 +56,45 @@ nav ul li a:hover{
     line-height: 0.8;
     left: 40px;
     top: 35px;
-    }
+}
 
-    /* Intro Hero image */
+/* Intro Hero image */
 
-    .hero {
-        
-        width :100%;
-        height: 100vh;
-        object-fit: cover;
-        display: block;
-      
-        
-    }
+.hero {
+
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+
+
+}
 
 
 /* Text heading for h1 */
 
 h1 {
-    font-family:'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     color: white;
     font-size: 130px;
     margin-left: 20px;
 
 }
 
-p { font-size: 30px;
-    font-family: 'Cardo', sans-serif; }
+p {
+    font-size: 30px;
+    font-family: 'Cardo', sans-serif;
+}
 
-h2 { font-size:55px;
-      font-family: 'Bebas Neue', sans-serif; 
-      color: white;
-    }
+h2 {
+    font-size: 55px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
 
 /* Header */
 
-header { 
+header {
     background-color: #0f0f0f;
 }
 
@@ -104,7 +108,7 @@ header {
 }
 
 
-.gimg { 
+.gimg {
     margin: 16px;
 }
 
@@ -116,92 +120,92 @@ img {
 
 .imgtvshow {
     background-color: #111910;
-    display: flex ;
+    display: flex;
     justify-content: flex-end;
     gap: 30px;
-    
-   
+
+
 }
 
 
 .elliepedro {
-   display: flex;
-   justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 
-/* Main content */ 
+/* Main content */
 
-main { 
-     background-color: #0f0f0f;
-     margin: 0;
-     padding: 0;
+main {
+    background-color: #0f0f0f;
+    margin: 0;
+    padding: 0;
 }
 
 .info {
-    
+
     background-color: #43653E;
     padding: 60px;
 }
 
 /* Tv show */
- .tvshow {
+.tvshow {
     background: #43653E;
-    padding:60px;
- }
+    padding: 60px;
+}
 
 /* Button css from  getcssscan.com */
 .button-55 {
-  align-self: center;
-  background-color: #fff;
-  background-image: none;
-  background-position: 0 90%;
-  background-repeat: repeat no-repeat;
-  background-size: 4px 3px;
-  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
-  border-style: solid;
-  border-width: 2px;
-  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
-  box-sizing: border-box;
-  color: #41403e;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Neucha, sans-serif;
-  font-size: 1rem;
-  line-height: 23px;
-  outline: none;
-  padding: .75rem;
-  text-decoration: none;
-  transition: all 235ms ease-in-out;
-  border-bottom-left-radius: 15px 255px;
-  border-bottom-right-radius: 225px 15px;
-  border-top-left-radius: 255px 15px;
-  border-top-right-radius: 15px 225px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  margin-top: 30px ;
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 30px;
 }
 
 .button-55:hover {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
-  transform: translate3d(0, 2px, 0);
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
 }
 
 .button-55:focus {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
 
 
 /* Feedback*/
 
-.feedback { 
- background-color: #43653E;
- padding: 60px;
- text-align: center;
- margin-top: 50px;
- margin-bottom: 50px;
+.feedback {
+    background-color: #43653E;
+    padding: 60px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .formg {
@@ -211,63 +215,73 @@ main {
 
 .fbtext {
     margin-bottom: 50px;
- }
+}
 
 /* Footer */
 
 footer {
     background-color: #0f0f0f;
-    color:white;
+    color: white;
 }
 
 /* Success Page */
 
- .success-text {
-    font-family:'Bebas Neue', sans-serif;
+.success-text {
+    font-family: 'Bebas Neue', sans-serif;
     color: white;
     font-size: 130px;
     text-align: center;
     margin-top: 240px;
- }
+}
 
- /* 404 page */
- .error { 
-    font-family:'Bebas Neue', sans-serif;
+/* 404 page */
+.error {
+    font-family: 'Bebas Neue', sans-serif;
     color: white;
     font-size: 130px;
     text-align: center;
     margin-top: 240px;
     background-color: #41403e;
- }
+}
 
- /* Media Querys : Mobile 375px */
- @media screen and (max-width: 375px) { 
-    nav ul li a { font-size: 10px}
-
-    #tlou { font-size: 45px;
-    padding-right: 40%;}
-
-    .hero { 
-    height: auto; }
-    
-
-    h1 { font-size: 28px;
-    margin:12px ;
-    line-height: 0.9;
- }
-
- h2 { font-size: 28px;
-      margin: 8px;}
-
- p { font-size: 15px;
-      padding: 0 10px;}
-
- .info { 
-    background-color: #43653E;
-    padding: 60px;
+/* Media Querys : Mobile 375px */
+@media screen and (max-width: 375px) {
+    nav ul li a {
+        font-size: 10px
     }
 
-    img { 
+    #tlou {
+        font-size: 45px;
+        padding-right: 40%;
+    }
+
+    .hero {
+        height: auto;
+    }
+
+
+    h1 {
+        font-size: 28px;
+        margin: 12px;
+        line-height: 0.9;
+    }
+
+    h2 {
+        font-size: 28px;
+        margin: 8px;
+    }
+
+    p {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .info {
+        background-color: #43653E;
+        padding: 60px;
+    }
+
+    img {
         width: 100%;
         height: auto;
     }
@@ -277,41 +291,49 @@ footer {
     }
 
 
- }
+}
 
- /* Media Query : tablets */
+/* Media Query : tablets */
 
- @media screen and (max-width:768px){
+@media screen and (max-width:768px) {
 
-    nav ul li a { font-size: 17px;}
+    nav ul li a {
+        font-size: 17px;
+    }
 
-    nav ul { 
+    nav ul {
         position: static;
         justify-content: center;
     }
 
     #tlou {
         font-size: 55px;
-        
+
     }
-      header{
-    position: relative;
-    width: 100vw;          
-    min-height: 100vh;     
-    overflow: hidden;      
-    margin: 0; padding: 0;
-  }
 
- .hero{
-    position: absolute;    
-    inset: 0;             
-    width: 100%;
-    height: 100%;
-    object-fit: cover;     
-    display: block;
-  }
+    header {
+        position: relative;
+        width: 100vw;
+        min-height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
 
-    .tlou, .navbar{ position: relative; z-index: 1; }
+    .hero {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .tlou,
+    .navbar {
+        position: relative;
+        z-index: 1;
+    }
 
 
     h1 {
@@ -332,42 +354,45 @@ footer {
         align-items: center;
     }
 
-    img { 
+    img {
         width: 100%;
         height: auto;
         object-fit: cover;
     }
- }
+}
 
-  /* Media Query : large devices */
+/* Media Query : large devices */
 
- @media screen and (max-width:992px){
+@media screen and (max-width:992px) {
 
-  .imgtvshow {
-    flex-direction: column;
-  }
-  .imgtvshow img { width: 100%; height: auto; object-fit: cover; }
-  }
-
-  img { 
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
-  @media screen and (max-width: 1200px) {
-    
     .imgtvshow {
-    flex-direction: column;
-    align-items: center;
-}  
-img { 
+        flex-direction: column;
+    }
+
+    .imgtvshow img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .imgtvshow {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
         width: 100%;
         height: auto;
         object-fit: cover;
     }
 
 }
-
-
-
-
